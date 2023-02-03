@@ -398,3 +398,25 @@ class ShopItem extends StatelessWidget {
 }
 */
 
+
+/*
+
+* StatelessWidget 와 StatefulWidget 의 차이점
+
+ - State 란?
+  -> Flutter에서는 모든 것이 Widget으로 시작한다.
+     Widget들을 컨트롤 해주고 어플리케이션을 만들어 나갈 때 State(상태)를 사용한다.
+     또한 Widget에는 Image, Icon, Text, Row, Column, Padding ... 등 모두 속한다.
+     이러한 Widget들은 StatelessWidget과 StatefulWidget을 상속 받아 만들 수 있다.
+
+ - StatelessWidget
+  -> StatelessWidget은 단 한번 만 Build되며, 한번 그려진 화면은 계속 유지되면서 성능 상 장점이 생긴다.
+
+ - StatefulWidget
+  -> StatefulWidget은 state를 포함하여, setState가 발생할 때마다 다시 재 Build를 한다.
+     즉, 동적 화면을 구성하기 위해선 StatefulWidget을 사용해야 한다.
+
+출처 : http://www.incodom.kr/Flutter/state#h_38a82bc2702f7b6ff1798e5ea7317431
+
+*/
+
