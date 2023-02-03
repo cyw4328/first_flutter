@@ -1,6 +1,7 @@
 # first_flutter
 
-A new Flutter project.
+lib/main.dart 
+에 정리 해놓음
 
 ## Getting Started
 
